@@ -30,8 +30,8 @@ typedef struct op{
 
 int main()
 {
-  // freopen("G.in","r",stdin);
-  //  freopen("G.out","w",stdout);
+    freopen("G.in","r",stdin);
+    freopen("G.out","w",stdout);
     int T;cin>>T;
     for(int tc=1;tc<=T;tc++){
         int N;cin>>N;string tmp; long v; char t;
