@@ -7,8 +7,8 @@ int f(int n){
 }
 int main()
 {
-    //freopen("I.in","r",stdin);
-   // freopen("out.txt","w",stdout);
+    freopen("I.in","r",stdin);
+    freopen("I.out","w",stdout);
     int n,d,sum[2001];
     int tc;
     cin>>tc;
